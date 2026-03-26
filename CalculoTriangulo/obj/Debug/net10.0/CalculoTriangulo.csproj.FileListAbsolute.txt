@@ -1,0 +1,15 @@
+C:\Users\danie\csharp-oop-journey\CalculoTriangulo\obj\Debug\net10.0\CalculoTriangulo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\csharp-oop-journey\CalculoTriangulo\obj\Debug\net10.0\CalculoTriangulo.AssemblyInfoInputs.cache
+C:\Users\danie\csharp-oop-journey\CalculoTriangulo\obj\Debug\net10.0\CalculoTriangulo.AssemblyInfo.cs
+C:\Users\danie\csharp-oop-journey\CalculoTriangulo\obj\Debug\net10.0\CalculoTriangulo.csproj.CoreCompileInputs.cache
+C:\Users\danie\csharp-oop-journey\CalculoTriangulo\obj\Debug\net10.0\CalculoTriangulo.sourcelink.json
+C:\Users\danie\csharp-oop-journey\CalculoTriangulo\bin\Debug\net10.0\CalculoTriangulo.exe
+C:\Users\danie\csharp-oop-journey\CalculoTriangulo\bin\Debug\net10.0\CalculoTriangulo.deps.json
+C:\Users\danie\csharp-oop-journey\CalculoTriangulo\bin\Debug\net10.0\CalculoTriangulo.runtimeconfig.json
+C:\Users\danie\csharp-oop-journey\CalculoTriangulo\bin\Debug\net10.0\CalculoTriangulo.dll
+C:\Users\danie\csharp-oop-journey\CalculoTriangulo\bin\Debug\net10.0\CalculoTriangulo.pdb
+C:\Users\danie\csharp-oop-journey\CalculoTriangulo\obj\Debug\net10.0\CalculoTriangulo.dll
+C:\Users\danie\csharp-oop-journey\CalculoTriangulo\obj\Debug\net10.0\refint\CalculoTriangulo.dll
+C:\Users\danie\csharp-oop-journey\CalculoTriangulo\obj\Debug\net10.0\CalculoTriangulo.pdb
+C:\Users\danie\csharp-oop-journey\CalculoTriangulo\obj\Debug\net10.0\CalculoTriangulo.genruntimeconfig.cache
+C:\Users\danie\csharp-oop-journey\CalculoTriangulo\obj\Debug\net10.0\ref\CalculoTriangulo.dll

@@ -1,0 +1,15 @@
+C:\Users\danie\csharp-oop-journey\Funcionarios\obj\Debug\net10.0\Program.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\csharp-oop-journey\Funcionarios\obj\Debug\net10.0\Program.AssemblyInfoInputs.cache
+C:\Users\danie\csharp-oop-journey\Funcionarios\obj\Debug\net10.0\Program.AssemblyInfo.cs
+C:\Users\danie\csharp-oop-journey\Funcionarios\obj\Debug\net10.0\Program.csproj.CoreCompileInputs.cache
+C:\Users\danie\csharp-oop-journey\Funcionarios\obj\Debug\net10.0\Program.sourcelink.json
+C:\Users\danie\csharp-oop-journey\Funcionarios\bin\Debug\net10.0\Program.exe
+C:\Users\danie\csharp-oop-journey\Funcionarios\bin\Debug\net10.0\Program.deps.json
+C:\Users\danie\csharp-oop-journey\Funcionarios\bin\Debug\net10.0\Program.runtimeconfig.json
+C:\Users\danie\csharp-oop-journey\Funcionarios\bin\Debug\net10.0\Program.dll
+C:\Users\danie\csharp-oop-journey\Funcionarios\bin\Debug\net10.0\Program.pdb
+C:\Users\danie\csharp-oop-journey\Funcionarios\obj\Debug\net10.0\Program.dll
+C:\Users\danie\csharp-oop-journey\Funcionarios\obj\Debug\net10.0\refint\Program.dll
+C:\Users\danie\csharp-oop-journey\Funcionarios\obj\Debug\net10.0\Program.pdb
+C:\Users\danie\csharp-oop-journey\Funcionarios\obj\Debug\net10.0\Program.genruntimeconfig.cache
+C:\Users\danie\csharp-oop-journey\Funcionarios\obj\Debug\net10.0\ref\Program.dll

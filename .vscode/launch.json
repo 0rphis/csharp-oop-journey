@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": ".NET Core Launch (console)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/exercicio1/bin/Debug/net10.0/exercicio1.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/exercicio1",
+      "stopAtEntry": false,
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    }
+  ]
+}

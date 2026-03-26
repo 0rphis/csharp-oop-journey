@@ -1,0 +1,5 @@
+C:\Users\danie\csharp-oop-journey\Exercicio2\obj\Debug\net10.0\Exercicio2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\csharp-oop-journey\Exercicio2\obj\Debug\net10.0\Exercicio2.AssemblyInfoInputs.cache
+C:\Users\danie\csharp-oop-journey\Exercicio2\obj\Debug\net10.0\Exercicio2.AssemblyInfo.cs
+C:\Users\danie\csharp-oop-journey\Exercicio2\obj\Debug\net10.0\Exercicio2.csproj.CoreCompileInputs.cache
+C:\Users\danie\csharp-oop-journey\Exercicio2\obj\Debug\net10.0\Exercicio2.sourcelink.json
