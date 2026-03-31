@@ -7,16 +7,37 @@ namespace Produtos
   {
     static void Main(string[] args)
     {
-      Produto p = new Produto();
 
-      Console.WriteLine("Entre os dados do produto");
+      Produto p = new Produto("TV",  500.00, 10);
+
+    p.Nome = "T";
+    Console.WriteLine(p.Nome);
+    Console.WriteLine(p.Preco);
+
+
+
+/*       p.SetNome("TV 4K");
+
+      Console.WriteLine(p.GetNome());
+      Console.WriteLine(p.GetPreco());
+      Console.WriteLine(p.GetQuantidade()); 
+      */
+    /*  Console.WriteLine("Entre os dados do produto");
       Console.Write("Nome: ");
-      p.Nome = Console.ReadLine();
+      string nome = Console.ReadLine();
       Console.Write("Preço: ");
-      p.Preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+      double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+      // se quiser da pra remover isso para n pedir a quantidade e aparecer o estoque pre programado 
       Console.Write("Quantidade no estoque: ");
-      p.Quantidade = int.Parse(Console.ReadLine());
+      int quantidade = int.Parse(Console.ReadLine());
 
+      Produto p2 = new Produto { 
+        Nome = "TV", 
+        Preco = 500.00, 
+        Quantidade = 5};
+
+
+      Produto p = new Produto (nome, preco);
       Console.WriteLine();
       Console.WriteLine("Dados do produto: " + p);
 
@@ -32,14 +53,12 @@ namespace Produtos
       Console.WriteLine();
       Console.Write("Digite o numero de produtos a ser removido do estoque: ");
 
-      int Rqnt = int.Parse(Console.ReadLine());
+      int qntRemov = int.Parse(Console.ReadLine());
 
-      p.RemoverProdutos(Rqnt);
+      p.RemoverProdutos(qntRemov);
       Console.WriteLine();
       Console.WriteLine("Dados atualizados: " + p);
-
-
-
+      */
     }
   }
-}
+} 
