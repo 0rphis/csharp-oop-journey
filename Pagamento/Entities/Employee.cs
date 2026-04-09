@@ -6,9 +6,7 @@
         public int Hours { get; set; }
         public double ValuePerHour { get; set; }
 
-        public Employee()
-        {
-        }
+        public Employee() { }
 
         public Employee(string name, int hours, double valuePerHour)
         {

@@ -1,9 +1,7 @@
 using System;
 using System.Globalization;
-using Compas.Entities.Enums;
 using System.Text;
-
-
+using Compas.Entities.Enums;
 
 namespace Compas.Entities
 {
@@ -14,9 +12,7 @@ namespace Compas.Entities
         public Client Client { get; private set; }
         private List<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
 
-        public Order()
-        {
-        }
+        public Order() { }
 
         public Order(OrderStatus status, Client client)
         {
@@ -29,6 +25,7 @@ namespace Compas.Entities
         {
             OrderItems.Add(item);
         }
+
         public void RemoveItem(OrderItem item)
         {
             OrderItems.Remove(item);
@@ -43,7 +40,6 @@ namespace Compas.Entities
             }
             return sum;
         }
-
 
         public override string ToString()
         {
@@ -60,6 +56,5 @@ namespace Compas.Entities
             sb.AppendLine($"Total price: ${Total().ToString("F2", CultureInfo.InvariantCulture)}");
             return sb.ToString();
         }
-
     }
 }

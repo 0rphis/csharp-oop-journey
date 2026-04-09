@@ -1,5 +1,5 @@
-﻿using Enumeracao.Entities.Enums;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using Enumeracao.Entities.Enums;
 
 namespace Enumeracao.Entities
 {
@@ -11,9 +11,7 @@ namespace Enumeracao.Entities
         public Department Department { get; set; }
         public List<HourContract> Contracts { get; private set; } = new List<HourContract>();
 
-        public Worker()
-        {
-        }
+        public Worker() { }
 
         public Worker(string name, WorkerLevel level, double baseSalary, Department department)
         {

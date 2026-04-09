@@ -8,7 +8,7 @@ list.Add("Anna");
 list.Insert(2, "Marco");
 foreach (string obj in list)
 {
-  Console.WriteLine(obj);
+    Console.WriteLine(obj);
 }
 Console.WriteLine("List count: " + list.Count);
 string s1 = list.Find(x => x[0] == 'A');
@@ -23,17 +23,17 @@ List<string> list2 = list.FindAll(x => x.Length == 5);
 Console.WriteLine("---------------------");
 foreach (string obj in list2)
 {
-  Console.WriteLine(obj);
+    Console.WriteLine(obj);
 }
 list.Remove("Alex");
 Console.WriteLine("---------------------");
 foreach (string obj in list)
 {
-  Console.WriteLine(obj);
+    Console.WriteLine(obj);
 }
 list.RemoveAll(x => x[0] == 'M');
 Console.WriteLine("---------------------");
 foreach (string obj in list)
 {
-  Console.WriteLine(obj);
+    Console.WriteLine(obj);
 }

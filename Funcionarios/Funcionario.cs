@@ -3,26 +3,25 @@ using System.Globalization;
 
 namespace Funcionarios
 {
-  class Funcionario
-  {
-    public string Nome;
-    public double SalarioBruto;
-    public double Imposto;
-
-
-    public double SalarioLiquido()
+    class Funcionario
     {
-      return SalarioBruto - Imposto;
-    }
+        public string Nome;
+        public double SalarioBruto;
+        public double Imposto;
 
-    public void AumentoSalario(double porcentagem)
-    {
-      SalarioBruto += SalarioBruto * (porcentagem / 100.0);
-    }
+        public double SalarioLiquido()
+        {
+            return SalarioBruto - Imposto;
+        }
 
-    public override string ToString()
-    {
-      return   Nome + ", $ " + SalarioLiquido().ToString("F2" ,CultureInfo.InvariantCulture);
+        public void AumentoSalario(double porcentagem)
+        {
+            SalarioBruto += SalarioBruto * (porcentagem / 100.0);
+        }
+
+        public override string ToString()
+        {
+            return Nome + ", $ " + SalarioLiquido().ToString("F2", CultureInfo.InvariantCulture);
+        }
     }
-  }
 }

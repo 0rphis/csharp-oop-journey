@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Globalization;
 using System.Collections.Generic;
+using System.Globalization;
 using Pagamento.Entities;
 
 namespace Pagamento
@@ -24,11 +24,17 @@ namespace Pagamento
                 Console.Write("Hours: ");
                 int hours = int.Parse(Console.ReadLine());
                 Console.Write("Value per hour: ");
-                double valuePerHour = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                double valuePerHour = double.Parse(
+                    Console.ReadLine(),
+                    CultureInfo.InvariantCulture
+                );
                 if (ch == 'y')
                 {
                     Console.Write("Additional charge: ");
-                    double additionalCharge = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                    double additionalCharge = double.Parse(
+                        Console.ReadLine(),
+                        CultureInfo.InvariantCulture
+                    );
                     list.Add(new OutsourcedEmployee(name, hours, valuePerHour, additionalCharge));
                 }
                 else
@@ -41,7 +47,9 @@ namespace Pagamento
             Console.WriteLine("PAYMENTS:");
             foreach (Employee emp in list)
             {
-                Console.WriteLine(emp.Name + " - $ " + emp.Payment().ToString("F2", CultureInfo.InvariantCulture));
+                Console.WriteLine(
+                    emp.Name + " - $ " + emp.Payment().ToString("F2", CultureInfo.InvariantCulture)
+                );
             }
         }
     }

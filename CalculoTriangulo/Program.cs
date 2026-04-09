@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Globalization;
 
-
 namespace CalculoTriangulo
 {
     class Program
     {
         static void Main(string[] args)
         {
-        Triangulo x, y;
+            Triangulo x,
+                y;
 
             x = new Triangulo();
             y = new Triangulo();
@@ -27,10 +27,8 @@ namespace CalculoTriangulo
 
             double areaY = y.CalculoArea();
 
-
             Console.WriteLine("Area de x = " + areaX.ToString("F4", CultureInfo.InvariantCulture));
             Console.WriteLine("Area de x = " + areaY.ToString("F4", CultureInfo.InvariantCulture));
-
 
             if (areaX > areaY)
             {

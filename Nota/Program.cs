@@ -15,9 +15,10 @@ namespace Nota
             Estudante.Nota2 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             Estudante.Nota3 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            Console.WriteLine("NOTA FINAL = " + Estudante.NotaTotal.ToString("F2",CultureInfo.InvariantCulture));
+            Console.WriteLine(
+                "NOTA FINAL = " + Estudante.NotaTotal.ToString("F2", CultureInfo.InvariantCulture)
+            );
             Console.WriteLine(Estudante.Status());
-
         }
     }
 }

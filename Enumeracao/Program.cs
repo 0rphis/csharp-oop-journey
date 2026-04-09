@@ -9,7 +9,6 @@ namespace Enumeracao
     {
         static void Main(string[] args)
         {
-
             Console.Write("Enter department's name: ");
             string deptName = Console.ReadLine();
             Console.WriteLine("Enter worker data:");
@@ -32,7 +31,10 @@ namespace Enumeracao
                 Console.Write("Date (DD/MM/YYYY): ");
                 DateTime date = DateTime.Parse(Console.ReadLine());
                 Console.Write("Value per hour: ");
-                double valuePerHour = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                double valuePerHour = double.Parse(
+                    Console.ReadLine(),
+                    CultureInfo.InvariantCulture
+                );
                 Console.Write("Duration (hours): ");
                 int hours = int.Parse(Console.ReadLine());
                 HourContract contract = new HourContract(date, valuePerHour, hours);
@@ -46,7 +48,12 @@ namespace Enumeracao
             int year = int.Parse(monthAndYear.Substring(3));
             Console.WriteLine("Name : " + worker.Name);
             Console.WriteLine("Department: " + worker.Department.Name);
-            Console.WriteLine("Income for " + monthAndYear + ": " + worker.Income(year, month).ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine(
+                "Income for "
+                    + monthAndYear
+                    + ": "
+                    + worker.Income(year, month).ToString("F2", CultureInfo.InvariantCulture)
+            );
         }
     }
 }
