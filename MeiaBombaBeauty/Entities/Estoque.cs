@@ -28,9 +28,10 @@ public class Estoque
         return produtos;
     }
 
-    public void salvarEstoque()
+    public void SalvarEstoque()
     {
-        var json = JsonSerializer.Serialize(produtos);
+        var options = new JsonSerializerOptions { WriteIndented = true };
+        var json = JsonSerializer.Serialize(produtos, options);
         File.WriteAllText("estoque.json", json);
     }
 

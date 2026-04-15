@@ -19,7 +19,7 @@ public enum CategoriaProduto
     Mascara = 15,
     Primer = 16,
     Esmalte = 17,
-    rimel = 18,
-    deliniador = 19,
+    Rimel = 18,
+    Delineador = 19,
     Fixador = 20,
 }

@@ -12,7 +12,8 @@ public class SistemaEstetica
 
     public void SalvarCompradores()
     {
-        var json = JsonSerializer.Serialize(Compradores);
+        var options = new JsonSerializerOptions { WriteIndented = true };
+        var json = JsonSerializer.Serialize(Compradores, options);
         File.WriteAllText(ArquivoCompradores, json);
     }
 
@@ -26,7 +27,8 @@ public class SistemaEstetica
 
     public void SalvarPedido()
     {
-        var json = JsonSerializer.Serialize(Pedidos);
+        var options = new JsonSerializerOptions { WriteIndented = true };
+        var json = JsonSerializer.Serialize(Pedidos, options);
         File.WriteAllText("pedidos.json", json);
     }
 
@@ -76,10 +78,11 @@ public class SistemaEstetica
 
     private int GerarIdUnico()
     {
+        var random = new Random();
         int id;
         do
         {
-            id = new Random().Next(100000, 999999);
+            id = random.Next(100000, 999999);
         } while (Pedidos.Any(p => p.Id == id));
         return id;
     }

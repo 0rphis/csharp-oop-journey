@@ -1,1 +1,821 @@
-[{"Codigo":"482915736","Nome":"Base L\u00EDquida Bruna Tavares BT Skin","Marca":"Bruna Tavares","Categoria":2,"Preco":80,"Quantidade":10,"Compradas":0},{"Codigo":"907134825","Nome":"Base Hidra Glow Niina Secrets","Marca":"Niina Secrets","Categoria":2,"Preco":70,"Quantidade":10,"Compradas":0},{"Codigo":"615829403","Nome":"Base Mascavo Soft Radiance","Marca":"Mascavo","Categoria":2,"Preco":115,"Quantidade":10,"Compradas":0},{"Codigo":"748203951","Nome":"P\u00F3 Facial Translucent Nina Makeup","Marca":"Nina Makeup","Categoria":1,"Preco":65,"Quantidade":0,"Compradas":10},{"Codigo":"329847156","Nome":"P\u00F3 Solto BT Powder","Marca":"Bruna Tavares","Categoria":1,"Preco":65,"Quantidade":0,"Compradas":10},{"Codigo":"560192837","Nome":"P\u00F3 Compacto Vult","Marca":"Vult","Categoria":1,"Preco":40,"Quantidade":0,"Compradas":10},{"Codigo":"874561209","Nome":"Corretivo L\u00EDquido Mascavo Soft Blur","Marca":"Mascavo","Categoria":3,"Preco":80,"Quantidade":10,"Compradas":0},{"Codigo":"193748562","Nome":"Corretivo Natura Una","Marca":"Natura","Categoria":3,"Preco":65,"Quantidade":10,"Compradas":0},{"Codigo":"726504918","Nome":"Corretivo Bruna Tavares","Marca":"Bruna Tavares","Categoria":3,"Preco":55,"Quantidade":10,"Compradas":0},{"Codigo":"451239870","Nome":"Blush L\u00EDquido Oc\u00E9ane","Marca":"Oc\u00E9ane","Categoria":4,"Preco":45,"Quantidade":10,"Compradas":0},{"Codigo":"608374291","Nome":"Blush Cremoso Ruby Rose","Marca":"Ruby Rose","Categoria":4,"Preco":15,"Quantidade":10,"Compradas":0},{"Codigo":"982157643","Nome":"Blush Cremoso Cont\u00E9m 1g","Marca":"Cont\u00E9m 1g","Categoria":4,"Preco":60,"Quantidade":10,"Compradas":0},{"Codigo":"734809125","Nome":"Contorno em Stick Boca Rosa","Marca":"Boca Rosa","Categoria":6,"Preco":70,"Quantidade":10,"Compradas":0},{"Codigo":"210498736","Nome":"Contorno BT Sculpt","Marca":"Bruna Tavares","Categoria":6,"Preco":70,"Quantidade":10,"Compradas":0},{"Codigo":"569321804","Nome":"Contorno Ruby Rose","Marca":"Ruby Rose","Categoria":6,"Preco":30,"Quantidade":10,"Compradas":0},{"Codigo":"713582904","Nome":"Iluminador Care Natural Beauty","Marca":"Care Natural Beauty","Categoria":7,"Preco":160,"Quantidade":10,"Compradas":0},{"Codigo":"248907163","Nome":"Iluminador BT Glow","Marca":"Bruna Tavares","Categoria":7,"Preco":60,"Quantidade":10,"Compradas":0},{"Codigo":"905713482","Nome":"Iluminador Ruby Rose","Marca":"Ruby Rose","Categoria":7,"Preco":30,"Quantidade":10,"Compradas":0},{"Codigo":"634198275","Nome":"Paleta de Sombras Ruby Rose","Marca":"Ruby Rose","Categoria":5,"Preco":35,"Quantidade":10,"Compradas":0},{"Codigo":"820475319","Nome":"Paleta Niina Secrets","Marca":"Eudora","Categoria":5,"Preco":95,"Quantidade":10,"Compradas":0},{"Codigo":"159384726","Nome":"Paleta Bruna Tavares","Marca":"Bruna Tavares","Categoria":5,"Preco":115,"Quantidade":10,"Compradas":0},{"Codigo":"472960138","Nome":"Gloss LipHoney (mel)","Marca":"Franciny Ehlke","Categoria":9,"Preco":57,"Quantidade":0,"Compradas":10},{"Codigo":"381759204","Nome":"Batom Matte Maybelline","Marca":"Maybelline","Categoria":8,"Preco":50,"Quantidade":10,"Compradas":0},{"Codigo":"690214857","Nome":"Gloss Fenty Beauty","Marca":"Fenty Beauty","Categoria":9,"Preco":125,"Quantidade":10,"Compradas":0},{"Codigo":"482915736","Nome":"T\u00F4nico Sallve","Marca":"Sallve","Categoria":10,"Preco":60,"Quantidade":10,"Compradas":0},{"Codigo":"907134825","Nome":"T\u00F4nico Nivea","Marca":"Nivea","Categoria":10,"Preco":30,"Quantidade":10,"Compradas":0},{"Codigo":"615829403","Nome":"T\u00F4nico Needs","Marca":"Needs","Categoria":10,"Preco":27,"Quantidade":10,"Compradas":0},{"Codigo":"748203951","Nome":"S\u00E9rum La Roche-Posay","Marca":"La Roche","Categoria":14,"Preco":150,"Quantidade":10,"Compradas":0},{"Codigo":"329847156","Nome":"S\u00E9rum Principia Vitamina C","Marca":"Principia","Categoria":14,"Preco":65,"Quantidade":10,"Compradas":0},{"Codigo":"560192837","Nome":"S\u00E9rum Vitamina C Tracta","Marca":"Tracta","Categoria":14,"Preco":55,"Quantidade":10,"Compradas":0},{"Codigo":"874561209","Nome":"Protetor Solar Needs","Marca":"Needs","Categoria":12,"Preco":37,"Quantidade":10,"Compradas":0},{"Codigo":"193748562","Nome":"Protetor Solar Nivea Sun","Marca":"Nivea","Categoria":12,"Preco":45,"Quantidade":10,"Compradas":0},{"Codigo":"726504918","Nome":"Protetor Solar La Roche-Posay","Marca":"La Roche","Categoria":12,"Preco":95,"Quantidade":10,"Compradas":0},{"Codigo":"451239870","Nome":"Hidratante La Roche-Posay","Marca":"La Roche","Categoria":11,"Preco":115,"Quantidade":10,"Compradas":0},{"Codigo":"608374291","Nome":"Hidratante CeraVe","Marca":"CeraVe","Categoria":11,"Preco":75,"Quantidade":10,"Compradas":0},{"Codigo":"982157643","Nome":"Hidratante Nivea Soft","Marca":"Nivea","Categoria":11,"Preco":30,"Quantidade":10,"Compradas":0},{"Codigo":"734809125","Nome":"Cleansing Oil Ruby Rose","Marca":"Ruby Rose","Categoria":13,"Preco":75,"Quantidade":10,"Compradas":0},{"Codigo":"210498736","Nome":"Sabonete Nivea Facial","Marca":"Nivea","Categoria":13,"Preco":30,"Quantidade":10,"Compradas":0},{"Codigo":"569321804","Nome":"Gel de Limpeza CeraVe","Marca":"CeraVe","Categoria":13,"Preco":65,"Quantidade":10,"Compradas":0}]
+[
+  {
+    "Codigo": "482915736",
+    "Nome": "Base L\u00EDquida Bruna Tavares BT Skin",
+    "Marca": "Bruna Tavares",
+    "Categoria": 2,
+    "Preco": 80,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "907134825",
+    "Nome": "Base Hidra Glow Niina Secrets",
+    "Marca": "Niina Secrets",
+    "Categoria": 2,
+    "Preco": 70,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "615829403",
+    "Nome": "Base Mascavo Soft Radiance",
+    "Marca": "Mascavo",
+    "Categoria": 2,
+    "Preco": 115,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "111222333",
+    "Nome": "Base Maybelline Fit Me",
+    "Marca": "Maybelline",
+    "Categoria": 2,
+    "Preco": 55,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "111222334",
+    "Nome": "Base L\u0027Or\u00E9al Paris Infaillible",
+    "Marca": "L\u0027Or\u00E9al",
+    "Categoria": 2,
+    "Preco": 65,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "748203951",
+    "Nome": "P\u00F3 Facial Translucent Nina Makeup",
+    "Marca": "Nina Makeup",
+    "Categoria": 1,
+    "Preco": 65,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "329847156",
+    "Nome": "P\u00F3 Solto BT Powder",
+    "Marca": "Bruna Tavares",
+    "Categoria": 1,
+    "Preco": 65,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "560192837",
+    "Nome": "P\u00F3 Compacto Vult",
+    "Marca": "Vult",
+    "Categoria": 1,
+    "Preco": 40,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "111222444",
+    "Nome": "P\u00F3 Banana Ruby Rose",
+    "Marca": "Ruby Rose",
+    "Categoria": 1,
+    "Preco": 35,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "111222445",
+    "Nome": "P\u00F3 Transl\u00FAcido Vult",
+    "Marca": "Vult",
+    "Categoria": 1,
+    "Preco": 30,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "874561209",
+    "Nome": "Corretivo L\u00EDquido Mascavo Soft Blur",
+    "Marca": "Mascavo",
+    "Categoria": 3,
+    "Preco": 80,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "193748562",
+    "Nome": "Corretivo Natura Una",
+    "Marca": "Natura",
+    "Categoria": 3,
+    "Preco": 65,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "726504918",
+    "Nome": "Corretivo Bruna Tavares",
+    "Marca": "Bruna Tavares",
+    "Categoria": 3,
+    "Preco": 55,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "111222555",
+    "Nome": "Corretivo Vult",
+    "Marca": "Vult",
+    "Categoria": 3,
+    "Preco": 30,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "451239870",
+    "Nome": "Blush L\u00EDquido Oc\u00E9ane",
+    "Marca": "Oc\u00E9ane",
+    "Categoria": 4,
+    "Preco": 45,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "608374291",
+    "Nome": "Blush Cremoso Ruby Rose",
+    "Marca": "Ruby Rose",
+    "Categoria": 4,
+    "Preco": 15,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "982157643",
+    "Nome": "Blush Cremoso Cont\u00E9m 1g",
+    "Marca": "Cont\u00E9m 1g",
+    "Categoria": 4,
+    "Preco": 60,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "111222666",
+    "Nome": "Blush Vult Cor \u0026 Luz",
+    "Marca": "Vult",
+    "Categoria": 4,
+    "Preco": 25,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "111222667",
+    "Nome": "Blush Tracta",
+    "Marca": "Tracta",
+    "Categoria": 4,
+    "Preco": 35,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "734809125",
+    "Nome": "Contorno em Stick Boca Rosa",
+    "Marca": "Boca Rosa",
+    "Categoria": 6,
+    "Preco": 70,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "210498736",
+    "Nome": "Contorno BT Sculpt",
+    "Marca": "Bruna Tavares",
+    "Categoria": 6,
+    "Preco": 70,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "569321804",
+    "Nome": "Contorno Ruby Rose",
+    "Marca": "Ruby Rose",
+    "Categoria": 6,
+    "Preco": 30,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "111222777",
+    "Nome": "Contorno Tracta",
+    "Marca": "Tracta",
+    "Categoria": 6,
+    "Preco": 40,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "713582904",
+    "Nome": "Iluminador Care Natural Beauty",
+    "Marca": "Care Natural Beauty",
+    "Categoria": 7,
+    "Preco": 160,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "248907163",
+    "Nome": "Iluminador BT Glow",
+    "Marca": "Bruna Tavares",
+    "Categoria": 7,
+    "Preco": 60,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "905713482",
+    "Nome": "Iluminador Ruby Rose",
+    "Marca": "Ruby Rose",
+    "Categoria": 7,
+    "Preco": 30,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "111222888",
+    "Nome": "Iluminador Oc\u00E9ane Glow",
+    "Marca": "Oc\u00E9ane",
+    "Categoria": 7,
+    "Preco": 50,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "111222889",
+    "Nome": "Iluminador Tracta",
+    "Marca": "Tracta",
+    "Categoria": 7,
+    "Preco": 45,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "634198275",
+    "Nome": "Paleta de Sombras Ruby Rose",
+    "Marca": "Ruby Rose",
+    "Categoria": 5,
+    "Preco": 35,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "820475319",
+    "Nome": "Paleta Niina Secrets",
+    "Marca": "Eudora",
+    "Categoria": 5,
+    "Preco": 95,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "159384726",
+    "Nome": "Paleta Bruna Tavares",
+    "Marca": "Bruna Tavares",
+    "Categoria": 5,
+    "Preco": 115,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "111222999",
+    "Nome": "Paleta Vult 40 Cores",
+    "Marca": "Vult",
+    "Categoria": 5,
+    "Preco": 75,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "472960138",
+    "Nome": "Gloss LipHoney (mel)",
+    "Marca": "Franciny Ehlke",
+    "Categoria": 9,
+    "Preco": 57,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "690214857",
+    "Nome": "Gloss Fenty Beauty",
+    "Marca": "Fenty Beauty",
+    "Categoria": 9,
+    "Preco": 125,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "111333222",
+    "Nome": "Gloss Ruby Rose",
+    "Marca": "Ruby Rose",
+    "Categoria": 9,
+    "Preco": 20,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "111333223",
+    "Nome": "Gloss Maybelline Lifter",
+    "Marca": "Maybelline",
+    "Categoria": 9,
+    "Preco": 45,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "381759204",
+    "Nome": "Batom Matte Maybelline",
+    "Marca": "Maybelline",
+    "Categoria": 8,
+    "Preco": 50,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "111333333",
+    "Nome": "Batom Vult",
+    "Marca": "Vult",
+    "Categoria": 8,
+    "Preco": 25,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "111333444",
+    "Nome": "Batom Natura Una",
+    "Marca": "Natura",
+    "Categoria": 8,
+    "Preco": 45,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "111333445",
+    "Nome": "Batom L\u00EDquido Fenty Beauty",
+    "Marca": "Fenty Beauty",
+    "Categoria": 8,
+    "Preco": 110,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "111333446",
+    "Nome": "Batom Ruby Rose Matte",
+    "Marca": "Ruby Rose",
+    "Categoria": 8,
+    "Preco": 20,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "222111333",
+    "Nome": "T\u00F4nico Sallve",
+    "Marca": "Sallve",
+    "Categoria": 10,
+    "Preco": 60,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "222111444",
+    "Nome": "T\u00F4nico Nivea",
+    "Marca": "Nivea",
+    "Categoria": 10,
+    "Preco": 30,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "222111555",
+    "Nome": "T\u00F4nico Needs",
+    "Marca": "Needs",
+    "Categoria": 10,
+    "Preco": 27,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "222111666",
+    "Nome": "T\u00F4nico Tracta",
+    "Marca": "Tracta",
+    "Categoria": 10,
+    "Preco": 45,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "333111222",
+    "Nome": "S\u00E9rum La Roche-Posay",
+    "Marca": "La Roche",
+    "Categoria": 14,
+    "Preco": 150,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "333111333",
+    "Nome": "S\u00E9rum Principia Vitamina C",
+    "Marca": "Principia",
+    "Categoria": 14,
+    "Preco": 65,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "333111444",
+    "Nome": "S\u00E9rum Vitamina C Tracta",
+    "Marca": "Tracta",
+    "Categoria": 14,
+    "Preco": 55,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "333111555",
+    "Nome": "S\u00E9rum Hidratante CeraVe",
+    "Marca": "CeraVe",
+    "Categoria": 14,
+    "Preco": 90,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "333111556",
+    "Nome": "S\u00E9rum Niacinamida Dermage",
+    "Marca": "Dermage",
+    "Categoria": 14,
+    "Preco": 85,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "333111557",
+    "Nome": "S\u00E9rum Retinol Vichy",
+    "Marca": "Vichy",
+    "Categoria": 14,
+    "Preco": 130,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "444111222",
+    "Nome": "Protetor Solar Needs",
+    "Marca": "Needs",
+    "Categoria": 12,
+    "Preco": 37,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "444111333",
+    "Nome": "Protetor Solar Nivea Sun",
+    "Marca": "Nivea",
+    "Categoria": 12,
+    "Preco": 45,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "444111444",
+    "Nome": "Protetor Solar La Roche-Posay",
+    "Marca": "La Roche",
+    "Categoria": 12,
+    "Preco": 95,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "444111555",
+    "Nome": "Protetor Solar Isdin",
+    "Marca": "Isdin",
+    "Categoria": 12,
+    "Preco": 120,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "444111556",
+    "Nome": "Protetor Solar Vichy",
+    "Marca": "Vichy",
+    "Categoria": 12,
+    "Preco": 110,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "444111557",
+    "Nome": "Protetor Solar Sundown",
+    "Marca": "Sundown",
+    "Categoria": 12,
+    "Preco": 40,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "555111222",
+    "Nome": "Hidratante La Roche-Posay",
+    "Marca": "La Roche",
+    "Categoria": 11,
+    "Preco": 115,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "555111333",
+    "Nome": "Hidratante CeraVe",
+    "Marca": "CeraVe",
+    "Categoria": 11,
+    "Preco": 75,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "555111444",
+    "Nome": "Hidratante Nivea Soft",
+    "Marca": "Nivea",
+    "Categoria": 11,
+    "Preco": 30,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "555111555",
+    "Nome": "Hidratante Neutrogena",
+    "Marca": "Neutrogena",
+    "Categoria": 11,
+    "Preco": 55,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "555111556",
+    "Nome": "Hidratante Vichy",
+    "Marca": "Vichy",
+    "Categoria": 11,
+    "Preco": 95,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "555111557",
+    "Nome": "Hidratante Eucerin",
+    "Marca": "Eucerin",
+    "Categoria": 11,
+    "Preco": 85,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "666111222",
+    "Nome": "Cleansing Oil Ruby Rose",
+    "Marca": "Ruby Rose",
+    "Categoria": 13,
+    "Preco": 75,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "666111333",
+    "Nome": "Sabonete Nivea Facial",
+    "Marca": "Nivea",
+    "Categoria": 13,
+    "Preco": 30,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "666111444",
+    "Nome": "Gel de Limpeza CeraVe",
+    "Marca": "CeraVe",
+    "Categoria": 13,
+    "Preco": 65,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "666111555",
+    "Nome": "Sabonete La Roche-Posay",
+    "Marca": "La Roche",
+    "Categoria": 13,
+    "Preco": 80,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "666111556",
+    "Nome": "Sabonete Neutrogena Deep Clean",
+    "Marca": "Neutrogena",
+    "Categoria": 13,
+    "Preco": 25,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "666111557",
+    "Nome": "Gel de Limpeza Effaclar La Roche-Posay",
+    "Marca": "La Roche",
+    "Categoria": 13,
+    "Preco": 75,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "777111222",
+    "Nome": "M\u00E1scara Maybelline Sky High",
+    "Marca": "Maybelline",
+    "Categoria": 15,
+    "Preco": 55,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "777111333",
+    "Nome": "M\u00E1scara L\u0027Or\u00E9al Voluminous",
+    "Marca": "L\u0027Or\u00E9al",
+    "Categoria": 15,
+    "Preco": 60,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "777111444",
+    "Nome": "M\u00E1scara Ruby Rose",
+    "Marca": "Ruby Rose",
+    "Categoria": 15,
+    "Preco": 20,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "888111222",
+    "Nome": "Primer Blur Tracta",
+    "Marca": "Tracta",
+    "Categoria": 16,
+    "Preco": 50,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "888111333",
+    "Nome": "Primer L\u0027Or\u00E9al Studio Secrets",
+    "Marca": "L\u0027Or\u00E9al",
+    "Categoria": 16,
+    "Preco": 70,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "888111444",
+    "Nome": "Primer Bruna Tavares BT Blur",
+    "Marca": "Bruna Tavares",
+    "Categoria": 16,
+    "Preco": 90,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "999111222",
+    "Nome": "Esmalte Colorama",
+    "Marca": "Colorama",
+    "Categoria": 17,
+    "Preco": 8,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "999111333",
+    "Nome": "Esmalte Risqu\u00E9",
+    "Marca": "Risqu\u00E9",
+    "Categoria": 17,
+    "Preco": 10,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "999111444",
+    "Nome": "Esmalte OPI",
+    "Marca": "OPI",
+    "Categoria": 17,
+    "Preco": 65,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "999111555",
+    "Nome": "Esmalte Impala",
+    "Marca": "Impala",
+    "Categoria": 17,
+    "Preco": 7,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "999222111",
+    "Nome": "R\u00EDmel Maybelline Lash Sensational",
+    "Marca": "Maybelline",
+    "Categoria": 18,
+    "Preco": 55,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "999222222",
+    "Nome": "R\u00EDmel L\u0027Or\u00E9al Paradise",
+    "Marca": "L\u0027Or\u00E9al",
+    "Categoria": 18,
+    "Preco": 60,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "999222333",
+    "Nome": "R\u00EDmel Ruby Rose",
+    "Marca": "Ruby Rose",
+    "Categoria": 18,
+    "Preco": 20,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "999222444",
+    "Nome": "R\u00EDmel Vult",
+    "Marca": "Vult",
+    "Categoria": 18,
+    "Preco": 25,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "999333111",
+    "Nome": "Delineador Vult",
+    "Marca": "Vult",
+    "Categoria": 19,
+    "Preco": 20,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "999333222",
+    "Nome": "Delineador Maybelline Master Ink",
+    "Marca": "Maybelline",
+    "Categoria": 19,
+    "Preco": 45,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "999333333",
+    "Nome": "Delineador Ruby Rose",
+    "Marca": "Ruby Rose",
+    "Categoria": 19,
+    "Preco": 18,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "999333444",
+    "Nome": "Delineador NYX Epic Ink",
+    "Marca": "NYX",
+    "Categoria": 19,
+    "Preco": 70,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "998444111",
+    "Nome": "Fixador Ruby Rose Fix It",
+    "Marca": "Ruby Rose",
+    "Categoria": 20,
+    "Preco": 25,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "998444222",
+    "Nome": "Fixador Urban Decay All Nighter",
+    "Marca": "Urban Decay",
+    "Categoria": 20,
+    "Preco": 180,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "998444333",
+    "Nome": "Fixador NYX Matte Finish",
+    "Marca": "NYX",
+    "Categoria": 20,
+    "Preco": 85,
+    "Quantidade": 10,
+    "Compradas": 0
+  },
+  {
+    "Codigo": "998444444",
+    "Nome": "Fixador Tracta",
+    "Marca": "Tracta",
+    "Categoria": 20,
+    "Preco": 55,
+    "Quantidade": 5,
+    "Compradas": 5
+  }
+]

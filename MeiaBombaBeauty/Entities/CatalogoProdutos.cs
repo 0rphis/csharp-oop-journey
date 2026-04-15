@@ -105,15 +105,15 @@ public static class CatalogoProdutos
             new Produto("999111444", "Esmalte OPI", "OPI", CategoriaProduto.Esmalte, 65m, 10),
             new Produto("999111555", "Esmalte Impala", "Impala", CategoriaProduto.Esmalte, 7m, 10),
              // Rímel
-            new Produto("999222111", "Rímel Maybelline Lash Sensational", "Maybelline", CategoriaProduto.rimel, 55m, 10),
-            new Produto("999222222", "Rímel L'Oréal Paradise", "L'Oréal", CategoriaProduto.rimel, 60m, 10),
-            new Produto("999222333", "Rímel Ruby Rose", "Ruby Rose", CategoriaProduto.rimel, 20m, 10),
-            new Produto("999222444", "Rímel Vult", "Vult", CategoriaProduto.rimel, 25m, 10),
+            new Produto("999222111", "Rímel Maybelline Lash Sensational", "Maybelline", CategoriaProduto.Rimel, 55m, 10),
+            new Produto("999222222", "Rímel L'Oréal Paradise", "L'Oréal", CategoriaProduto.Rimel, 60m, 10),
+            new Produto("999222333", "Rímel Ruby Rose", "Ruby Rose", CategoriaProduto.Rimel, 20m, 10),
+            new Produto("999222444", "Rímel Vult", "Vult", CategoriaProduto.Rimel, 25m, 10),
              // Delineador
-            new Produto("999333111", "Delineador Vult", "Vult", CategoriaProduto.deliniador, 20m, 10),
-            new Produto("999333222", "Delineador Maybelline Master Ink", "Maybelline", CategoriaProduto.deliniador, 45m, 10),
-            new Produto("999333333", "Delineador Ruby Rose", "Ruby Rose", CategoriaProduto.deliniador, 18m, 10),
-            new Produto("999333444", "Delineador NYX Epic Ink", "NYX", CategoriaProduto.deliniador, 70m, 10),
+            new Produto("999333111", "Delineador Vult", "Vult", CategoriaProduto.Delineador, 20m, 10),
+            new Produto("999333222", "Delineador Maybelline Master Ink", "Maybelline", CategoriaProduto.Delineador, 45m, 10),
+            new Produto("999333333", "Delineador Ruby Rose", "Ruby Rose", CategoriaProduto.Delineador, 18m, 10),
+            new Produto("999333444", "Delineador NYX Epic Ink", "NYX", CategoriaProduto.Delineador, 70m, 10),
             // Fixador
             new Produto("998444111", "Fixador Ruby Rose Fix It", "Ruby Rose", CategoriaProduto.Fixador, 25m, 10),
             new Produto("998444222", "Fixador Urban Decay All Nighter", "Urban Decay", CategoriaProduto.Fixador, 180m, 10),

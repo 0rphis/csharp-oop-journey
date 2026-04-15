@@ -1,4 +1,3 @@
-using System.Reflection.Metadata;
 using System.Text.Json;
 using MeiaBombaBeauty.Entities;
 using MeiaBombaBeauty.Enums;
@@ -10,48 +9,39 @@ class Program
 {
     static Comprador CadastrarNovoComprador(SistemaEstetica sistema)
     {
-        Console.WriteLine("Digite seu nome:");
-        var nome = Console.ReadLine();
-        Console.WriteLine("Digite seu CPF:");
-        var cpf = Console.ReadLine();
-
-        if (sistema.BuscarComprador(cpf) != null)
+        try
         {
-            Console.WriteLine("CPF já cadastrado. Buscando comprador...");
-            return sistema.BuscarComprador(cpf);
-        }
-        else if (cpf == null || cpf.Length != 11 || !cpf.All(char.IsDigit))
-        {
-            Console.WriteLine("CPF inválido. O CPF deve conter exatamente 11 dígitos numéricos.");
-            Console.WriteLine("Digite um CPF válido:");
-            cpf = Console.ReadLine();
-        }
+            Console.WriteLine("Digite seu nome:");
+            var nome = Console.ReadLine();
+            Console.WriteLine("Digite seu CPF:");
+            var cpf = Console.ReadLine();
 
-        Console.WriteLine("Digite seu telefone:");
+            if (sistema.BuscarComprador(cpf) != null)
+            {
+                Console.WriteLine("CPF já cadastrado. Buscando comprador...");
+                return sistema.BuscarComprador(cpf);
+            }
 
-        var telefone = Console.ReadLine();
-        if (sistema.BuscarComprador(telefone) != null)
-        {
-            Console.WriteLine("Telefone já cadastrado. Buscando comprador...");
-            return sistema.BuscarComprador(telefone);
-        }
-        else if (telefone == null || telefone.Length != 11 || !telefone.All(char.IsDigit))
-        {
-            Console.WriteLine(
-                "Telefone inválido. O telefone deve conter exatamente 11 dígitos numéricos."
-            );
-            Console.WriteLine("Digite um telefone válido:");
-            telefone = Console.ReadLine();
-        }
-        Console.WriteLine("Digite seu endereço:");
-        var endereco = Console.ReadLine();
+            Console.WriteLine("Digite seu telefone:");
 
-        var novoComprador = new Comprador(nome, cpf, telefone, endereco);
-        sistema.CadastrarComprador(novoComprador);
-        sistema.SalvarCompradores();
-        Console.WriteLine($"Cadastro criado! Bem-vindo, {novoComprador.Nome}!");
-        Console.WriteLine();
-        return novoComprador;
+            var telefone = Console.ReadLine();
+
+            Console.WriteLine("Digite seu endereço:");
+            var endereco = Console.ReadLine();
+
+            var novoComprador = new Comprador(nome, cpf, telefone, endereco);
+            sistema.CadastrarComprador(novoComprador);
+            sistema.SalvarCompradores();
+            Console.WriteLine($"Cadastro criado! Bem-vindo, {novoComprador.Nome}!");
+            Console.WriteLine();
+            return novoComprador;
+        }
+        catch (ArgumentException ex)
+        {
+            Console.WriteLine($"Erro: {ex.Message}");
+            Console.WriteLine("Tente novamente.");
+            return CadastrarNovoComprador(sistema);
+        }
     }
 
     static void ExibirCatalogo(SistemaEstetica sistema)
@@ -96,8 +86,6 @@ class Program
         {
             var p = produtos[i];
             Console.WriteLine($"[{p.Codigo}] {p.Nome, -30} R${p.Preco, -8}");
-            if ((i + 1) % 3 == 0)
-                Console.WriteLine();
         }
         Console.WriteLine();
     }
@@ -236,7 +224,7 @@ class Program
                 pedido.ExibirDetalhes();
 
                 sistema.SalvarPedido();
-                sistema.Estoque.salvarEstoque();
+                sistema.Estoque.SalvarEstoque();
 
                 Console.WriteLine("Deseja fazer outro pedido? (S/N)");
                 outroPedido = Console.ReadLine()?.ToUpper() == "S";
